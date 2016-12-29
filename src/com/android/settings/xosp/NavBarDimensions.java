@@ -87,7 +87,7 @@ public class NavBarDimensions extends SettingsPreferenceFragment implements
 
     @Override
     protected int getMetricsCategory() {
-        return MetricsLogger.DONT_TRACK_ME_BRO;
+        return MetricsLogger.XOSP;
     }
 
     private void updateDimension() {
