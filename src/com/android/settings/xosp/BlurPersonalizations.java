@@ -184,7 +184,6 @@ public class BlurPersonalizations extends SettingsPreferenceFragment
             Settings.System.putInt(
                 resolver, Settings.System.TRANSLUCENT_NOTIFICATIONS_PRECENTAGE_PREFERENCE_KEY, value);
             return true;
-        }
         } else if (preference == mRecentsScale) {
             int value = ((Integer)newValue).intValue();
             Settings.System.putInt(
