@@ -81,7 +81,7 @@
             android:defaultValue="5" />
     </PreferenceCategory>
 
-    <!--<PreferenceCategory
+    <PreferenceCategory
         android:key="blur_notifications_cat"
         android:title="@string/blur_notifications_cat" >   
 
@@ -98,7 +98,7 @@
             settings:min="0"
             android:dependency="translucent_notifications_pref"
             android:defaultValue="60" />
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:key="blur_qs_cat"
